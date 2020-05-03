@@ -21,7 +21,7 @@ gem 'nokogiri'
 # For feed.xml.builder
 gem 'builder', '~> 3.0.0'
 
-gem 'middleman-smusher'
+gem 'middleman-smusher', '>= 3.0.0'
 
 group :development do
   gem 'bourbon'
