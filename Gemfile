@@ -2,7 +2,7 @@ ruby '2.0.0'
 
 source 'https://rubygems.org'
 
-gem 'middleman'
+gem 'middleman', '>= 4.3.8'
 gem 'middleman-blog'
 gem 'middleman-minify-html'
 gem 'middleman-livereload'
@@ -21,7 +21,7 @@ gem 'nokogiri'
 # For feed.xml.builder
 gem 'builder', '~> 3.0.0'
 
-gem 'middleman-smusher'
+gem 'middleman-smusher', '>= 3.0.0'
 
 group :development do
   gem 'bourbon'
