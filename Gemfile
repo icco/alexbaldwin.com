@@ -13,7 +13,7 @@ gem 'middleman-sync', '~> 3.0.11'
 gem 'middleman-cloudfront'
 
 # Way better markdown support, roll out the red carpet
-gem 'redcarpet'
+gem 'redcarpet', '>= 3.5.1'
 
 # Blog post summaries
 gem 'nokogiri'
