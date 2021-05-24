@@ -10,13 +10,13 @@ gem 'middleman-livereload'
 # Deploys
 gem 'dotenv-rails', :groups => [:development, :test]
 gem 'middleman-sync', '~> 3.0.11'
-gem 'middleman-cloudfront'
+gem 'middleman-cloudfront', '>= 0.0.6'
 
 # Way better markdown support, roll out the red carpet
 gem 'redcarpet'
 
 # Blog post summaries
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.11.4'
 
 # For feed.xml.builder
 gem 'builder', '~> 3.0.0'
